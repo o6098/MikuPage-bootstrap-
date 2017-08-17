@@ -1,0 +1,35 @@
+.MikuGreen{
+  padding-bottom: 5px;
+  background-color: #50cbca;
+}
+.DeskPic{
+  width: 100%;
+  height: auto;
+}
+.Info{
+  margin-top: 2px;
+  background-color: #ACC5D9;
+  padding: 20px 0px;
+  display: inline-block;
+}
+.FooterWord{
+  color:white;
+}
+.MikuSkirt{
+  height:60px;
+  background-color:#172238;
+  background-image: repeating-linear-gradient(90deg,
+    hsla(0,0%,100%,0),
+    hsla(0,0%,100%,.1) 15px,
+     transparent 0,
+     transparent 30px);
+}
+.MikuSkirt2{
+  height:20px;
+  background-color:#50cbca;
+  background-image: repeating-linear-gradient(90deg,
+    hsla(0,0%,100%,0),
+    hsla(0,0%,100%,.1) 15px,
+     transparent 0,
+     transparent 30px);
+}
