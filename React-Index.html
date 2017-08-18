@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maxium-scale=1, user-scalable=no">
+    <title>咪哭です</title>
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container"></div>
+    <script type="text/babel">
+      class Miku extends React.Component{
+        render(){
+          return(
+            <h1>咪哭です</h1>
+          );
+        }
+      }
+      ReactDOM.render(
+        <Miku />,
+        document.querySelector('.container'));
+    </script>
+  </body>
