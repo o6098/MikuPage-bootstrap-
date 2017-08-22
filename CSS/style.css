@@ -15,8 +15,7 @@
   #172238 85%,#E53188 0,
   #E53188 90%,#172238 0,
   #172238 95%,#50cbca 0,
-  #50cbca 100%)
-            ;
+  #50cbca 100%);
 }
 .DeskPic{
   width: 100%;
@@ -26,17 +25,19 @@
   background-color: #ACC5D9;
 }
 .MikuTie{
-  height:100%;
-  background:linear-gradient(45deg, #557777 50%, transparent 50%),
+  height: 60%;
+  background:linear-gradient(45deg, #557777 50%, transparent 20%),
   linear-gradient(90deg, #ee6655 100%, transparent 100%),
-  linear-gradient(135deg, #ffeebb 50%, transparent 50%) 100% 0%,
-  linear-gradient(180deg, #ffcc55 100%, transparent 100%) 100% 0%,
-  linear-gradient(225deg, #ffaa22 50%, transparent 50%) 100% 100%,
-  linear-gradient(270deg, #ccddaa 100%, transparent 100%) 100% 100%,
-  linear-gradient(315deg, #77aa88 50%, transparent 50%) 0% 100%,
-  linear-gradient(360deg, #99cc99 100%, transparent 100%) 0% 100%);
-  background-repeat: no-repeat;
-	background-size: 50% 50%;
+    linear-gradient(135deg, #ffeebb 50%, transparent 50%) 100% 0%,
+    linear-gradient(180deg, #ffcc55 100%, transparent 100%) 100% 0%,
+    linear-gradient(225deg, #ffaa22 50%, transparent 50%) 100% 100%,
+    linear-gradient(270deg, #ccddaa 100%, transparent 100%) 100% 100%,
+    linear-gradient(315deg, #77aa88 50%, transparent 50%) 0% 100%,
+    linear-gradient(360deg, #99cc99 100%, transparent 100%) 0% 100%;
+    background-repeat: no-repeat;
+    background-size:50% 50% ;
+
+
 }
 .Info{
   margin-top: 2px;
